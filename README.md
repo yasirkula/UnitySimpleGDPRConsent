@@ -1,5 +1,7 @@
 # Unity GDPR Consent Plugin
 
+**Forum Thread:** https://forum.unity.com/threads/simple-gdpr-consent-open-source.723866/
+
 This plugin helps you present a GDPR consent dialog to the users. Please note that you are responsible from forwarding the consent data to your SDKs.
 
 ## How To
@@ -37,6 +39,8 @@ This dialog prompts the user to accept your *Terms of Service* and/or *Privacy P
 - `new TermsOfServiceDialog()`: creates a new instance of this dialog
 - `SetTermsOfServiceLink( string termsOfServiceLink )`: sets the *Terms of Service* url
 - `SetPrivacyPolicyLink( string privacyPolicyLink )`: sets the *Privacy Policy* url
+
+---
 
 ### GDPRConsentDialog
 
