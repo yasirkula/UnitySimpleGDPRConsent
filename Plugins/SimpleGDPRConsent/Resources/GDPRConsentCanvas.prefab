@@ -513,7 +513,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Thank you for playing this game!
+  m_Text: 'Thank you for playing our game!
 
 
     We aim to enhance your user experience and improve our services using data about
@@ -522,6 +522,9 @@ MonoBehaviour:
 
     You have the right to opt out of data collection. Although it negatively affects
     our services, we respect your decision.
+
+
+    By opting in to data collection, you confirm that you are at least 16 years old.
 
 
     You can change your choices anytime in the app settings.'
@@ -1294,7 +1297,7 @@ MonoBehaviour:
   scrollView: {fileID: 114383886671576280}
   termsView: {fileID: 224328926290790830}
   consentView: {fileID: 224663782967401968}
-  dialogPadding: {x: 40, y: 100}
+  dialogPadding: {x: 0, y: 100}
 --- !u!114 &114981408167332626
 MonoBehaviour:
   m_ObjectHideFlags: 1

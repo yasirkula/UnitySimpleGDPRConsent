@@ -55,7 +55,12 @@ namespace SimpleGDPRConsent
 			if( !string.IsNullOrEmpty( section.identifier ) )
 			{
 				toggle.gameObject.SetActive( true );
-				toggleHolder.Value = GDPRConsentCanvas.GetConsentState( section.identifier ) != SimpleGDPR.ConsentState.No;
+
+				SimpleGDPR.ConsentState consentState = GDPRConsentCanvas.GetConsentState( section.identifier );
+				if( consentState == SimpleGDPR.ConsentState.Unknown )
+					toggleHolder.Value = section.initialConsentValue;
+				else
+					toggleHolder.Value = consentState != SimpleGDPR.ConsentState.No;
 			}
 			else
 				toggle.gameObject.SetActive( false );

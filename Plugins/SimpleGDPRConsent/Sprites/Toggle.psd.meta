@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7b2789887a9459442946c4e09e29e17d
-timeCreated: 1565194674
+timeCreated: 1584872859
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -54,7 +54,7 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 128
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -62,7 +62,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
-    maxTextureSize: 256
+    maxTextureSize: 128
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -70,7 +70,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Android
-    maxTextureSize: 256
+    maxTextureSize: 128
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -78,7 +78,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: WebGL
-    maxTextureSize: 256
+    maxTextureSize: 128
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -92,10 +92,10 @@ TextureImporter:
       name: BackgroundOff
       rect:
         serializedVersion: 2
-        x: 8
-        y: 168
-        width: 140
-        height: 80
+        x: 7
+        y: 167
+        width: 142
+        height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,10 +118,10 @@ TextureImporter:
       name: BackgroundOn
       rect:
         serializedVersion: 2
-        x: 8
-        y: 81
-        width: 140
-        height: 80
+        x: 7
+        y: 80
+        width: 142
+        height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

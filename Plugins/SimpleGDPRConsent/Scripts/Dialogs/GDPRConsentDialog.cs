@@ -9,14 +9,16 @@ public class GDPRConsentDialog : IGDPRDialog
 		public readonly string description;
 		public readonly string title;
 		public readonly string identifier;
+		public readonly bool initialConsentValue;
 		public readonly string buttonLabel;
 		public readonly SimpleGDPR.ButtonClickDelegate onButtonClicked;
 
-		public Section( string description, string title, string identifier, string buttonLabel, SimpleGDPR.ButtonClickDelegate onButtonClicked )
+		public Section( string description, string title, string identifier, bool initialConsentValue, string buttonLabel, SimpleGDPR.ButtonClickDelegate onButtonClicked )
 		{
 			this.description = description;
 			this.title = title;
 			this.identifier = identifier;
+			this.initialConsentValue = initialConsentValue;
 			this.buttonLabel = buttonLabel;
 			this.onButtonClicked = onButtonClicked;
 		}
@@ -37,7 +39,7 @@ public class GDPRConsentDialog : IGDPRDialog
 		return this;
 	}
 
-	public GDPRConsentDialog AddSectionWithToggle( string identifier, string title, string description = null )
+	public GDPRConsentDialog AddSectionWithToggle( string identifier, string title, string description = null, bool initialConsentValue = true )
 	{
 		if( string.IsNullOrEmpty( identifier ) )
 		{
@@ -45,7 +47,7 @@ public class GDPRConsentDialog : IGDPRDialog
 			return this;
 		}
 
-		return AddSection( new Section( description, title, identifier, null, null ) );
+		return AddSection( new Section( description, title, identifier, initialConsentValue, null, null ) );
 	}
 
 	public GDPRConsentDialog AddSectionWithButton( SimpleGDPR.ButtonClickDelegate onButtonClicked, string title, string description = null, string buttonLabel = null )
@@ -56,7 +58,7 @@ public class GDPRConsentDialog : IGDPRDialog
 			return this;
 		}
 
-		return AddSection( new Section( description, title, null, buttonLabel, onButtonClicked ) );
+		return AddSection( new Section( description, title, null, true, buttonLabel, onButtonClicked ) );
 	}
 
 	public GDPRConsentDialog AddPrivacyPolicy( string link )
