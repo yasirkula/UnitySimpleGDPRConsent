@@ -4,6 +4,8 @@
 
 **Forum Thread:** https://forum.unity.com/threads/simple-gdpr-consent-open-source.723866/
 
+**[Support the Developer ☕](https://yasirkula.itch.io/unity3d)**
+
 This plugin helps you present a GDPR consent dialog to the users. Please note that you are responsible from forwarding the consent data to your SDKs.
 
 ## How To
