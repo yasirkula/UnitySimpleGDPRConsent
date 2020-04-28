@@ -8,9 +8,17 @@
 
 This plugin helps you present a GDPR consent dialog to the users. Please note that you are responsible from forwarding the consent data to your SDKs.
 
-## How To
+## INSTALLATION
 
-Simply import [SimpleGDPR.unitypackage](https://github.com/yasirkula/UnitySimpleGDPRConsent/releases) to your project and you are good to go!
+There are 4 ways to install this plugin:
+
+- import [SimpleGDPR.unitypackage](https://github.com/yasirkula/UnitySimpleGDPRConsent/releases) via *Assets-Import Package*
+- clone/[download](https://github.com/yasirkula/UnitySimpleGDPRConsent/archive/master.zip) this repository and move the *Plugins* folder to your Unity project's *Assets* folder
+- import it from [Asset Store](https://assetstore.unity.com/packages/tools/gui/simple-gdpr-consent-151966)
+- *(via Package Manager)* add the following line to *Packages/manifest.json*:
+  - `"com.yasirkula.simplegdprconsent": "https://github.com/yasirkula/UnitySimpleGDPRConsent.git",`
+
+## HOW TO
 
 **SimpleGDPR** class has the following functions and properties:
 
@@ -30,7 +38,7 @@ Simply import [SimpleGDPR.unitypackage](https://github.com/yasirkula/UnitySimple
 
 **NOTE:** To comply with GDPR, users must be allowed to change the consents they've provided at any time. So, make sure that users can access the consent dialog from e.g. the settings menu.
 
-## Dialogs
+## DIALOGS
 
 There are two types of dialogs (*IGDPRDialog*). After creating a dialog instance, you can customize it by chaining the dialog's functions (see [Example Code](example-code)). Then, you can show it to the user via the *ShowDialog* or *WaitForDialog* functions.
 
@@ -58,7 +66,7 @@ This dialog consists of a number of sections and a list of privacy policies that
 - `AddPrivacyPolicy( string link )`: adds a privacy policy to the list of privacy policies
 - `AddPrivacyPolicies( params string[] links )`: adds a number of privacy policies to the list of privacy policies
 
-## Example Code
+## EXAMPLE CODE
 
 The following code has two functions:
 

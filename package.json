@@ -1,0 +1,6 @@
+{
+  "name": "com.yasirkula.simplegdprconsent",
+  "displayName": "Simple GDPR Consent",
+  "version": "1.1.0",
+  "description": "This plugin helps you present a GDPR consent dialog to the users. Please note that you are responsible from forwarding the consent data to your SDKs."
+}
