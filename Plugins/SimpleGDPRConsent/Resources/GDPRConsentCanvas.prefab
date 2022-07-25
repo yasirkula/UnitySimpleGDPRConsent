@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 114576984593259620}
   - component: {fileID: 114902194396559972}
   - component: {fileID: 225818152581031718}
+  - component: {fileID: 114661163447697800}
   m_Layer: 5
   m_Name: GDPRConsentCanvas
   m_TagString: Untagged
@@ -393,7 +394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1985282466359750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,6 +1066,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 114361362398777562}
+--- !u!114 &114661163447697800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1218750497802748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ba2ec1001cae94880ac63ff635834d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  embeddedEventSystem: {fileID: 1953971859849354}
 --- !u!114 &114671533258207622
 MonoBehaviour:
   m_ObjectHideFlags: 1
