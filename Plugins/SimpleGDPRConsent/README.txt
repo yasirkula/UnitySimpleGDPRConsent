@@ -1,4 +1,4 @@
-= Simple GDPR Consent =
+= Simple GDPR Consent (v1.1.2) =
 
 Online documentation & example code available at: https://github.com/yasirkula/UnitySimpleGDPRConsent
 E-mail: yasirkula@gmail.com
