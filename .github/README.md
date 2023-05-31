@@ -6,7 +6,7 @@
 
 **Discord:** https://discord.gg/UJJt549AaV
 
-**[Support the Developer ☕](https://yasirkula.itch.io/unity3d)**
+**[GitHub Sponsors ☕](https://github.com/sponsors/yasirkula)**
 
 This plugin helps you present a GDPR consent dialog to the users. Please note that you are responsible from forwarding the consent data to your SDKs.
 
